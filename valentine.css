@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    border: 0;
+    margin-bottom: 2%;
+}
+
+body {
+    background-image: url('pink.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.miku, .mad_cat{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 1%;
+}
+
+.questions{
+    text-align: center;
+}
+
+._answers{
+    text-align: center;
+    display: block;
+    float: left;
+    margin-left: 50%;
+    background-color: maroon;
+    padding: 12px 30px;
+    border-radius: 15%;
+}
+
+._aanswers{
+    text-align: center;
+    display: block;
+    float: right;
+    background-color: maroon;
+    padding: 12px;
+    border-radius: 15%;
+}
+
+a{
+  text-decoration: none;
+  color: pink;
+}
+
+.row{
+    width: 70%;
+}
+
+
+.answers_two{
+    text-align: center;
+    display: block;
+    float: left;
+    margin-left: 50%;
+    margin-top: 5%;
+    background-color: maroon;
+    padding: 12px 30px;
+    border-radius: 15%;
+}
+
+.aanswers_two{
+     text-align: center;
+    display: block;
+    float: right;
+    margin-top: 5%;
+    background-color: maroon;
+    padding: 12px;
+    border-radius: 15%;
+}
+
+.center_answer{
+    text-align: center;
+    margin-top: 5%;
+    padding: 12px;
+    border-radius: 15%;
+    background-color: maroon;
+    width: 10%;
+    margin-left: 45%;
+}
